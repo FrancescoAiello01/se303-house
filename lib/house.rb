@@ -1,5 +1,6 @@
 class House
   def recite
+    (1..12).collect { |line_number| line(line_number) }.join("\n")
   end
 
   def line(number)
