@@ -3,6 +3,9 @@ class House
     (1..12).collect { |line_number| line(line_number) }.join("\n")
   end
 
+  def phrase
+  end
+
   def line(number)
     case number
     when 1
