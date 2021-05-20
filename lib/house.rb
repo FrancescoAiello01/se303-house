@@ -7,6 +7,7 @@ class House
     case number
     when 2
       "the malt that lay in "
+    when 3
     else
       ""
     end
