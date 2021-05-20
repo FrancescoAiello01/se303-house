@@ -4,7 +4,8 @@ class House
   end
 
   def phrase(number)
-    if number == 2
+    case number
+    when 2
       "the malt that lay in "
     else
       ""
