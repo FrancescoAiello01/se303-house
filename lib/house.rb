@@ -74,3 +74,21 @@ class RandomPirateHouse < House
     @data ||= DATA[0...-1].shuffle << DATA.last
   end
 end
+
+class RandomVerbHouse < House
+  VERBS = VERBS.shuffle
+  DATA = [
+    "the horse and the hound and the horn that #{VERBS[0]}",
+    "the farmer sowing his corn that #{VERBS[1]}",
+    "the rooster that crowed in the morn that #{VERBS[2]}",
+    "the priest all shaven and shorn that #{VERBS[3]}",
+    "the man all tattered and torn that #{VERBS[4]}",
+    "the maiden all forlorn that #{VERBS[5]}",
+    "the cow with the crumpled horn that #{VERBS[6]}",
+    "the dog that #{VERBS[7]}",
+    "the cat that #{VERBS[8]}",
+    "the rat that #{VERBS[9]}",
+    "the malt that #{VERBS[10]}",
+    "the house that Jack built"
+    ]
+end
