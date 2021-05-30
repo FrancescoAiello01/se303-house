@@ -30,6 +30,10 @@ class House
     @all_lyrics ||= DATA
   end
 
+  def data
+
+  end
+
   def pronoun
     "This is"
   end
