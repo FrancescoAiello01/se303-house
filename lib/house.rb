@@ -29,6 +29,6 @@ class House
   end
 
   def line(number)
-    "This is #{phrase(number)}.\n"
+    "#{pronoun} #{phrase(number)}.\n"
   end
 end
