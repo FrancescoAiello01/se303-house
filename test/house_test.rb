@@ -153,4 +153,34 @@ This is the rooster that crowed in the morn that woke the priest all shaven and 
     assert_equal expected, RandomHouse.new.recite
   end
 
+  def test_all_the_lines_for_random_pirate
+    Kernel.srand(1)
+    expected = <<-TEXT
+Thar be the house that Jack built.
+
+Thar be the maiden all forlorn that milked the house that Jack built.
+
+Thar be the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the farmer sowing his corn that kept the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the priest all shaven and shorn that married the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+
+Thar be the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the rat that ate the farmer sowing his corn that kept the cow with the crumpled horn that tossed the horse and the hound and the horn that belonged to the dog that worried the malt that lay in the cat that killed the maiden all forlorn that milked the house that Jack built.
+    TEXT
+    assert_equal expected, RandomPirateHouse.new.recite
+  end
+
 end
