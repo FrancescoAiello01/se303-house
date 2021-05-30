@@ -7,8 +7,8 @@ class House
     phrase_array.last(number).join(" ")
   end
 
-  def lyrics
-
+  def lyrics(number = :fixme)
+    phrase_array.last(number)
   end
 
   def phrase_array
