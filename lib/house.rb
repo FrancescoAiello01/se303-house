@@ -7,6 +7,10 @@ class House
     phrase_array.last(number).join(" ")
   end
 
+  def lyrics
+
+  end
+
   def phrase_array
     [
     'the horse and the hound and the horn that belonged to',
