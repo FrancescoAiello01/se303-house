@@ -38,5 +38,7 @@ class House
 end
 
 class PirateHouse < House
-
+  def pronoun
+    "Thar be"
+  end
 end
