@@ -31,7 +31,7 @@ class House
   end
 
   def data
-    @all_lyrics ||= DATA
+    @data ||= DATA
   end
 
   def pronoun
@@ -55,6 +55,6 @@ class RandomHouse < House
   end
 
   def data
-    @all_lyrics ||= DATA[0...-1].shuffle << DATA.last
+    @data ||= DATA[0...-1].shuffle << DATA.last
   end
 end
