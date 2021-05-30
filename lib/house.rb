@@ -1,5 +1,5 @@
 class House
-  def initialize()
+  def initialize
     @all_lyrics = [
     'the horse and the hound and the horn that belonged to',
     'the farmer sowing his corn that kept',
