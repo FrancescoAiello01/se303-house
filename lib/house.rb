@@ -31,7 +31,7 @@ class House
   end
 
   def data
-
+    @all_lyrics ||= DATA
   end
 
   def pronoun
