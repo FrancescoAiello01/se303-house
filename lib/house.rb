@@ -24,7 +24,7 @@ class House
     'the cat that killed',
     'the rat that ate',
     'the malt that lay in',
-    'the house that Jack built'
+    ''
     ]
   end
 
@@ -33,7 +33,7 @@ class House
   end
 
   def line(number)
-    "#{pronoun} #{phrase(number)}.\n"
+    "#{pronoun} #{phrase(number)}the house that Jack built.\n"
   end
 end
 
