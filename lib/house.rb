@@ -52,4 +52,11 @@ class RandomHouse < House
 end
 
 class RandomPirateHouse < House
+  def pronoun
+    "Thar be"
+  end
+
+  def data
+    @data ||= DATA[0...-1].shuffle << DATA.last
+  end
 end
