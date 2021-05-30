@@ -43,7 +43,7 @@ class House
   end
 
   def all_lyrics
-    @all_lyrics
+    @all_lyrics ||= DATA
   end
 
   def pronoun
