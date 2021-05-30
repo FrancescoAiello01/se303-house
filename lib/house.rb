@@ -36,3 +36,7 @@ class House
     "#{pronoun} #{phrase(number)}.\n"
   end
 end
+
+class PirateHouse < House
+
+end
