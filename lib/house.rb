@@ -1,4 +1,18 @@
 class House
+  VERBS = [
+    'belonged to',
+    'kept',
+    'woke',
+    'married',
+    'kissed',
+    'milked',
+    'tossed',
+    'worried',
+    'killed',
+    'ate',
+    'lay in'
+  ]
+
   DATA = [
     'the horse and the hound and the horn that belonged to',
     'the farmer sowing his corn that kept',
