@@ -46,3 +46,7 @@ class PirateHouse < House
     "Thar be"
   end
 end
+
+class RandomHouse < House
+
+end
