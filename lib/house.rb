@@ -47,6 +47,6 @@ end
 
 class RandomHouse < House
   def all_lyrics
-
+    @all_lyrics ||= DATA[0...-1].shuffle << DATA.last
   end
 end
