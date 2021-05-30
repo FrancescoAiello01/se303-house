@@ -25,7 +25,7 @@ class House
   end
 
   def pronoun
-
+    "This is"
   end
 
   def line(number)
