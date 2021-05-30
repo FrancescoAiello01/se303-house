@@ -50,3 +50,6 @@ class RandomHouse < House
     @data ||= DATA[0...-1].shuffle << DATA.last
   end
 end
+
+class RandomPirateHouse < House
+end
