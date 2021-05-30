@@ -23,7 +23,7 @@ class House
   end
 
   def lyrics(number)
-    all_lyrics.last(number)
+    data.last(number)
   end
 
   def all_lyrics
