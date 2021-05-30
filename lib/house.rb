@@ -23,10 +23,10 @@ class House
   end
 
   def lyrics(number)
-    phrase_array.last(number)
+    all_lyrics.last(number)
   end
 
-  def phrase_array
+  def all_lyrics
     ALL_LYRICS
   end
 
